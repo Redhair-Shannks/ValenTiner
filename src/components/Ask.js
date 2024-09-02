@@ -60,7 +60,7 @@ export default function Ask(props) {
   const navigate = useNavigate();
 
   const [noCount, setNoCount] = useState(0);
-  const [askText, setAskText] = useState("accept my sorry pls fifteen thousand  lines ka code likha hai website banane ke liye pls manjao");
+  const [askText, setAskText] = useState("accept my sorry pls fifteen thousand  lines ka code likha hai website banane ke liye pls  bas tumhare liye (cringe cringe  ew ew)");
   const [emojiAsk, setEmojiAsk] = useState('');
   const [yesOrNow, setYesOrNow] = useState(null);
 
@@ -112,7 +112,7 @@ export default function Ask(props) {
     document.querySelector('.cry-animation-2').classList.add('hidden');
     document.querySelector('.accept-animation').classList.remove('hidden');
     document.querySelector('.buttons').classList.add('hidden');
-    setAskText("Yayy.. ! ")
+    setAskText("Yayy.. ! scroll down ")
     setEmojiAsk('😍');
     setYesOrNow("Yes");
   }
@@ -157,7 +157,7 @@ export default function Ask(props) {
         </div>
       </div>
       <div className="ask-convey px-4 flex flex-col flex-wrap items-center gap-3 sm:gap-7">
-        <div className='convey h-fit w-fit text-transparent bg-clip-text  bg-gradient-to-t from-[#962820] to-[#111125] sm:text-4xl text-center select-none'>i started to have feelings for u since few weeks par hum toh dost the na toh isliye had to block you to not make it awkard someday  sorry merese ache  aur bhi lakho log hai unhe i hope they become ur friends bye bye  T_T</div>
+        <div className='convey h-fit w-fit text-transparent bg-clip-text  bg-gradient-to-t from-[#962820] to-[#111125] sm:text-4xl text-center select-none'>i wanted us to be more than friends emphasis on "something more than friends"  lekin theek hai pata hai mai ek ganda dost hu awkard kr diya sry,,, merese ache  aur bhi lakho ladke hai  i hope they become ur friend bye bye  T_T</div>
         <div className='ask-text w-fit h-fit flex flex-col gap-3 sm:gap-16 items-center'>
           <div
             className="ask text-2xl text-center sm:text-4xl select-none">

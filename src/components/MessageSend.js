@@ -1,12 +1,14 @@
-// Create a new element
-var messageElement = document.createElement("div");
+import React from 'react';
 
-// Set the text content of the element
-messageElement.textContent = "Thank you Buddhu";
-
-// Style the text to make it bigger and blue
-messageElement.style.fontSize = "48px"; // Set the font size to 48 pixels
-messageElement.style.color = "blue"; // Set the font color to blue
-
-// Add the element to the body of the document
-document.body.appendChild(messageElement);
+export default function MessageSend() {
+    return (
+        <div className="message-form flex items-center justify-center h-screen">
+            <div className="button-send">
+                <div
+                    className="button-text px-7 py-3 text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-tr from-[#3a6186] to-[#89253e] text-center">
+                    Thank you Buddhu ek din jaroor sath me khelnge badminton T_T ache se sekhlena mereko harana easy nahi gurrrrrrrrrrrrr aur ha mujhe moon-asa bolna jada pasand hai lol
+                </div>
+            </div>
+        </div>
+    );
+}

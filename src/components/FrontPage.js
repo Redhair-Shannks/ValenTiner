@@ -7,8 +7,8 @@ import './styles/frontpage.css';
 
 export default function FrontPage() {
     const [text, setText] = useState('');
-    const sentence = "sorry for blocking you but i had to do it...   \n";
-    const typingSpeed = 400; 
+    const sentence = "sorry for blocking you ...   \n";
+    const typingSpeed = 150; 
 
     useEffect(() => {
         const typeSentence = (index) => {
@@ -66,7 +66,7 @@ export default function FrontPage() {
                     </p>
                 </div>
                 <div className="autor text-author absolute bottom-8 left-10 rotate-45">
-                    ~ Narcissist
+                    ~ Buddhu
                 </div>
             </div>
             <div className="content-ask text-white z-10 flex flex-col flex-wrap gap-6 justify-center items-center">

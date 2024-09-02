@@ -49,7 +49,7 @@
 }
 
 .custom-color-text {
-    @apply text-transparent bg-clip-text bg-gradient-to-br from-[#56ab2f] to-[#a8e063];
+    @apply text-transparent bg-clip-text bg-gradient-to-br from-[#56ab2f] to-[#000000];
 }
 
 
